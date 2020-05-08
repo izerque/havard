@@ -5,6 +5,9 @@ body{
 }
 *{
 box-sizing: border-box;}
+body::-webkit-scrollbar {
+    display: none;
+  }
 
 
 .headroom{
@@ -146,28 +149,55 @@ h1{
     
 }
 .main-container{
+                border:1px solid red 1px;
+                padding-left: 10px;
+                display:flex;
                 
     
     
     }
+    .parent-cont{
+        height: 400px;
+        overflow: auto;
+        width: 60%;
+        
+      
+    }
+    .parent-cont::-webkit-scrollbar {
+        display: none;
+      }
 .city-cont{
-    height:auto;
+    height:300px;
     display: flex;
     margin-top:10px;
     width: 100%;
+    background-color: rgb(10, 10, 10);
+    
+    border-radius: 5px;
+    border:1px solid red 1px;
 }
 .row{
     margin-left: 2px;
+    display:flex;
+    margin-right: 10px;
    
 }
-.img-cont{
-    width: 30%;
-    border-radius: 7px;
-    margin-left: 2px;
-    padding: 10px;
-}
 img{
-    padding: 3px;
+    width: 32%;
+    border-radius: 7px;
+    margin-left: 10px;
+    padding: px;
+    
 }
+h3 h4 h5{
+    color: rgb(240, 237, 234);
+}
+.description{
+
+}
+.side-bar{
+    width: 40%;
+}
+
    
   
