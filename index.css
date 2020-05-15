@@ -95,7 +95,7 @@ li:hover{
   
 }
 #search-bar{
-    width:50%;
+    width:40%;
     border-radius: 4px;
     font-size: 16px;
     
@@ -139,7 +139,7 @@ input[type=text] {
 
 h1{
 
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(243, 235, 235);
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -150,8 +150,9 @@ h1{
 }
 .main-container{
                 border:1px solid red 1px;
-                padding-left: 10px;
-                display:flex;
+                padding-left: 2px;
+                padding: 5px;
+                align-content:space-between;
                 
     
     
@@ -159,7 +160,7 @@ h1{
     .parent-cont{
         height: 400px;
         overflow: auto;
-        width: 60%;
+        width: 100%;
         
       
     }
@@ -174,7 +175,7 @@ h1{
     background-color: rgb(10, 10, 10);
     
     border-radius: 5px;
-    border:1px solid red 1px;
+   
 }
 .row{
     margin-left: 2px;
@@ -182,7 +183,7 @@ h1{
     margin-right: 10px;
    
 }
-img{
+.images{
     width: 32%;
     border-radius: 7px;
     margin-left: 10px;
@@ -197,6 +198,71 @@ h3 h4 h5{
 }
 .side-bar{
     width: 40%;
+    height: 300px;
+    background-color: rgb(243, 235, 235);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.new-description{
+    width: 100%;
+    background-color: rgb(243, 235, 235);
+    margin: 0px;
+    height: 400px;
+   
+
+}
+.new-description_box{
+    margin: auto;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    padding: 5px;
+    
+    
+
+}
+.new-description_box:hover{
+    background-color: rgba(214, 210, 210, 0.384);
+}
+.new-description_box_image{
+    width: 50%;
+    height:100%;
+
+    
+}
+.flip-image{
+    width: 100%;
+    height:100%;
+}
+.new-description_box_info{
+    width: 50%;
+    height:100%;
+    padding: 20px;
+
+    
+
+}
+#desc_title{
+   
+    margin:10px;
+    padding: 20px ;
+    text-align: center;
+    font-weight:bolder;
+    
+
+    
+}
+#desc_info{
+     text-align: center;
+     font-weight: normal;
+     padding-top: 10px;
+     padding: 50px;
+     border-top: 10px solid rgb(138, 136, 136);
+     border-left: 10px solid rgb(128, 128, 128);
+     border-radius: 4px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
    
